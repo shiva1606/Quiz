@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <title>Quizz Application</title>
+</head>
+
+<body class="body">
+
+    <div class="header">
+        <div class="logo">
+            <b>Quiz</b>
+        </div>
+        <div class="main-head">
+
+            <div class="login">Login</div>
+            <div class="Create_account">Leaderboard</div>
+        </div>
+    </div>
+
+
+
+    <!--Login form -->
+    <div class="login-page">
+        <div class="form">
+            <div class="login">
+                <div class="login-header">
+
+                    <h3>Enter your details to login!</h3>
+
+                </div>
+            </div>
+            <form class="login-form">
+                <input type="text" placeholder="username" />
+                <input type="password" placeholder="password" />
+                <button>login</button>
+                <p class="message">Not registered? <a href="#">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!--Registration form-->
+    <form  style="max-width:500px;margin:auto">
+        <h2>Register Here</h2>
+        <div class="input-container">
+          <i class="fa fa-user icon"></i>
+          <input class="input-field" type="text" placeholder="Username" name="usrnm">
+        </div>
+      
+        <div class="input-container">
+          <i class="fa fa-envelope icon"></i>
+          <input class="input-field" type="text" placeholder="Email" name="email">
+        </div>
+        
+        <div class="input-container">
+          <i class="fa fa-key icon"></i>
+          <input class="input-field" type="password" placeholder="Password" name="psw">
+        </div>
+        <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input class="input-field" type="password" placeholder="Confirm Password" name="psw">
+          </div>
+      
+        <button type="submit" class="btn">Register</button>
+      </form>
+
+
+</body>
+
+</html>
